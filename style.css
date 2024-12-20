@@ -1,0 +1,389 @@
+body{
+    background-color: #e0e0e0;
+}
+
+/*ESTE ES EL ENCABEZADO*/
+
+#cont-header{
+    font-family: "press start 2p", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-header{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header h1{
+    margin: 0;
+    color: #3b5a7c;
+}
+
+.container-header img{
+    width: 100px;
+    margin-left: 25px;
+}
+
+/*ESTA ES LA BARRA DE NAVEGACIÓN*/
+
+#cont-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #3b5a7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+
+.nav-bar{
+    width: 100%;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0; 
+}
+
+.nav-bar ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #3b5a7c;
+    font-weight: 600;
+    
+}
+
+.nav-bar ul li a:hover{
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.material-symbols-outlined{
+    margin-right: 12px;
+}
+
+
+/*ESTE ES EL FOOTER*/
+
+#footer{
+     width: 100%;
+    height: 350px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.container-footer{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.container-section-1{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 50px;
+}
+
+.container-social{
+    font-size: 30px;
+}
+
+.fa-brands{
+    margin: 10px;
+    color: #cccccc;
+    transition: all .2s ease;
+}
+
+.fa-brands:hover{
+    color: #ffffff;
+}
+
+.raya-2{
+    width: 30%;
+    border-bottom: 1px solid gray;
+}
+
+.container-section-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.container-section-2 h3{
+    font-family: "press start 2p", Arial, Helvetica, sans-serif;
+    font-size: 33px;
+}
+
+
+
+.img-footer{
+    width: 70px;
+    margin-left: 2%;
+}
+
+
+.container-section-3{
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/*ESTAS SON LAS MEDIAQUERYS*/
+
+@media screen and (max-width: 1003px){
+    #cont-header{
+        font-size: 20px;
+    }
+    #container-section{
+        width: 95%;
+    }
+    #container-aside{
+        width: 60%;
+        margin-right: 1%;
+    }
+}
+
+@media  screen and (max-width: 730px) {
+    
+    #cont-header{
+        font-size: 15px;
+    }
+    #cont-header img{
+        width: 60px;
+    }
+
+    #cont-nav{
+        height: 230px;
+        position: inherit;
+    }
+    
+
+    
+    .nav-bar ul {
+        display: block;
+        height: 100%;
+    }
+    
+    .nav-bar ul li a {
+        width: 92%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 4%;
+        
+    }
+    
+    
+    
+    .material-symbols-outlined{
+        margin-right: 12px;
+    }
+
+
+
+    .container-social{
+        font-size: 20px;
+    }
+    .fa-brands{
+        margin: 5px;
+    }
+    .raya-2{
+        width: 20%;
+        border-bottom: 1px solid gray;
+    }
+
+    .container-section-2 h3{
+        font-family: "press start 2p", Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+    
+    
+    
+    .img-footer{
+        width: 40px;
+        margin-left: 2%;
+    }
+    
+    .container-section-3{
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 436px){
+
+    #cont-header{
+        font-size: 12px;
+    }
+    #cont-header img{
+        width: 40px;
+        margin-left: 2%;
+    }
+
+    #cont-nav{
+        height: 230px;
+        position: inherit;
+    }
+    
+
+    
+    .nav-bar ul {
+        display: block;
+        height: 100%;
+    }
+    
+    .nav-bar ul li a {
+        width: 92%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 4%;
+        
+    }
+    
+    
+    
+    .material-symbols-outlined{
+        margin-right: 12px;
+    }
+    
+
+    .container-social{
+        font-size: 20px;
+    }
+    .fa-brands{
+        margin: 5px;
+    }
+    .raya-2{
+        width: 20%;
+        border-bottom: 1px solid gray;
+    }
+
+    .container-section-2 h3{
+        font-family: "press start 2p", Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+    
+    
+    
+    .img-footer{
+        width: 40px;
+        margin-left: 2%;
+    }
+    
+    .container-section-3{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 335px) {
+    #cont-header{
+        font-size: 50%;
+        height: 60px;
+        
+    }
+    #cont-header img{
+        width: 30px;
+        margin-left: 2%;
+    }
+
+    #cont-nav{
+        height: 190px;
+        position: inherit;
+    }
+    .nav-bar ul li a {
+        font-size: 12px;
+    }
+    .material-symbols-outlined{
+        margin-right: 5px;
+        font-size: 18px !important;
+    }
+    
+
+   
+    
+    .nav-bar ul {
+        display: block;
+        height: 100%;
+    }
+    
+    .nav-bar ul li a {
+        width: 92%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 4%;
+        height: 35px;
+        
+    }
+    
+    
+    
+    .material-symbols-outlined{
+        margin-right: 12px;
+    }
+    
+
+    
+    #footer{
+        height: 200px;
+    }
+
+    .container-social{
+        font-size: 14px;
+    }
+    .fa-brands{
+        margin: 3px;
+    }
+    .raya-2{
+        width: 10%;
+        border-bottom: 1px solid gray;
+    }
+    .container-section-2{
+        margin-top: 20px;
+    }
+    .container-section-2 h3{
+        font-family: "press start 2p", Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    
+    
+    
+    .img-footer{
+        width: 25px;
+        margin-left: 2%;
+    }
+    
+    .container-section-3{
+        font-size: 7px;
+        margin-top: 30px;
+    }
+}

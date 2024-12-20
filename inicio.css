@@ -1,0 +1,306 @@
+
+/*ESTE ES EL CUERPO DE LA PAGINA*/
+
+#container-section{
+    width: 92%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+.cont-title{
+    font-size: 30px;
+    font-family: "press start 2p", Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #3b5a7c;
+}
+
+.cont-product{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cont-product:hover{
+    box-shadow: 0px 0px 15px gray;
+    transition: box-shadow .3s;
+    .raya{
+        box-shadow: 1px 1px 8px gray;
+        transition: box-shadow .3s;
+    }
+}
+
+.img-product {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.img-product img{
+    width: 120px;
+}
+
+.img-2{
+    width: 160px !important;
+}
+.img-3{
+    width: 200px !important;
+}
+.img-4{
+    width: 170px !important;
+}
+
+.raya{
+    height: 70px;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+    
+.inf-product{
+    min-width: 200px;
+    width: 60%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inf-product h2{
+    margin-top: 10px;
+}
+
+.elemento{
+    flex-grow: 1;
+}
+
+.prueba{
+    width: 120px;
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prueba h3{
+    font-size: 22px;
+}
+.prueba p{
+    font-size: 25px;
+    margin-left: 4%;
+    font-weight: 700;
+    color: #00af09;
+}
+
+
+/*ESTE ES EL ASIDE*/
+
+#container-aside{
+    width: 40%;
+    margin-top: 134.5px;
+    margin-right: 3%;
+}
+
+
+.cont-aside{
+    width: 100%;
+    height: 470px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    position: sticky;
+    top: 130px;
+    padding: 9%;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+
+.cont-aside h3{
+    font-weight: 900;
+    color: #3b5a7c;
+    font-size: 20px;
+}
+
+.cont-aside h4{
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+#container-body{
+    display: flex;
+}
+
+.cont-link a{
+    margin-top: 7px;
+    padding: 7px;
+    display: inline-block;
+    background-color: #cccccc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+    transition: all .5s ease;
+}
+.cont-link a:hover{
+    background-color: #e0e0e0;
+}
+
+
+@media screen and (max-width: 1003px){
+    .cont-aside{
+        height: 520px;
+    }
+}
+
+
+@media  screen and (max-width: 730px) {
+    
+
+
+    .cont-title{
+        font-size: 20px;
+    }
+    
+    #container-section{
+        width: 96%;
+    }
+    .img-product{
+        width: 100px;
+    }
+    .inf-product h2{
+        font-size: 18px;
+    }
+    .inf-product p{
+        font-size: 14px;
+    }
+    .inf-product h3{
+        font-size: 18px;
+    }
+
+    #container-aside{
+        margin-top: 0px;
+        margin-left: 2%;
+        width: 96%;
+    }
+    #container-body{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 436px){
+
+
+    .cont-title{
+        font-size: 20px;
+    }
+    
+    #container-section{
+        width: 96%;
+    }
+    .img-product{
+        width: 100px;
+    }
+    .inf-product h2{
+        font-size: 18px;
+    }
+    .inf-product p{
+        font-size: 14px;
+    }
+    .inf-product h3{
+        font-size: 18px;
+    }
+
+    #container-aside{
+        margin-top: 0px;
+        margin-left: 2%;
+        width: 96%;
+    }
+    #container-body{
+        display: block;
+    }
+
+
+}
+
+
+@media screen and (max-width: 335px) {
+
+    .cont-title{
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #container-section{
+        width: 96%;
+    }
+
+    .img-product{
+        width: 30%;
+    }
+
+   
+    .inf-product{
+        min-width: 10%;
+    }
+    .inf-product h2{
+        font-size: 12px;
+    }
+    .inf-product p{
+        font-size: 10px;
+    }
+    .inf-product h3{
+        font-size: 12px;
+    }
+
+    #container-aside{
+        margin-top: 0px;
+        margin-left: 2%;
+        width: 96%;
+    }
+    .cont-aside{
+        width: 100%;
+        height: 350px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        position: sticky;
+        top: 130px;
+        padding: 15%;
+        margin-bottom: 30px;
+        z-index: 10;
+    }
+    
+    .cont-aside h3{
+        font-size: 12px;
+    }
+    
+    .cont-aside h4{
+        font-size: 10px;
+    }
+    .cont-link a{
+        font-size: 10px;
+    }
+
+
+
+
+
+    #container-body{
+        display: block;
+    }
+
+
+}
